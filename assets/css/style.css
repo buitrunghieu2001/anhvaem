@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Agbalumo", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0 8%;
+  position: absolute;
+}
+.container .users {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.container .users .user {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container .users .user a {
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+.container .users .user a .avatar {
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+.container .users .user a span {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.container .users .heart i {
+  font-size: 40px;
+  color: #ff3753;
+}
+.container .silent {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  padding: 6px;
+}
+.container .silent i {
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+}
+.container .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.container .content h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+.container .content h1 span {
+  color: #ff3753;
+}
+.container .content .launch-time {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.container .content .launch-time div {
+  flex-basis: 100px;
+  margin: 0 12px;
+}
+.container .content .launch-time div p {
+  font-size: 60px;
+  margin-bottom: 14px;
+}
+.container button {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  outline: none;
+  padding: 12px 25px;
+  color: #fff;
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+  cursor: pointer;
+}
+.container button i {
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.background-img {
+  background-image: url(../img/gb.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@keyframes rocket {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 105%;
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

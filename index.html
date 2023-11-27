@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/lib/fontawesome-free-6.4.2-web/css/all.css" type="text/css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/solar.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+    <script type="text/javascript" src="./assets/lib/jquery/jquery-3.7.1.js" ></script>
+    <script type="text/javascript" src="./assets/lib/jquery/snowfall.jquery.min.js" ></script>
+    <script type="text/javascript" src="./assets/js/script.js" ></script>
+    <title>Đếm ngày bên em</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+             
+        </div>
+        <div class="silent">
+            <i data-status="pause" class="pause fa-solid fa-volume-xmark fa-fade" title="Tát nhạc"></i>
+            <i data-status="play" class="play fa-solid fa-volume-high fa-fade" title="Bật nhạc"></i>
+        </div>
+        <div class="content">
+            <div class="users">
+                <div class="male user">
+                    <a href="https://www.facebook.com/100035222975941" title="Người tuyệt vời nhất thế giới">
+                        <img src="./assets/img/anh.jpeg" class="avatar" alt="Cô gái xinh đẹp nhất thế giới">
+                        <span class="name">Trung Hiếu</span>
+                    </a>
+                </div>
+                <div class="heart">
+                    <i class="fa-solid fa-heart fa-beat"></i>
+                </div>
+                <div class="female user">
+                    <a href="https://www.facebook.com/100014470681205" title="Cô gái xinh đẹp nhất thế giới">
+                        <img src="./assets/img/em.jpg" class="avatar" alt="Cô gái xinh đẹp nhất thế giới">
+                        <span class="name">Cao Hoa</span>
+                    </a>
+                </div>
+            </div>
+            <h1>Đếm <span>ngày</span> bên <span>em</span></h1>
+            <div class="launch-time">
+                <!-- <div>
+                    <p id="years">00</p>
+                    <span>Năm</span>
+                </div> -->
+                <div>
+                    <p id="days">00</p>
+                    <span>Ngày</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Giờ</span>
+                </div>
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Phút</span>
+                </div>
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Giây</span>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="./assets/img/rocket.png" class="rocket"> -->
+        <button type="button" id="btnMore">Xem thêm
+            <i class="fa-solid fa-caret-right fa-bounce"></i>
+        </button>
+
+    </div>
+
+    <div class="overlay"></div>
+    <div class="background-img"></div>
+    <!-- <div class='solar-syst'>
+        <div class='sun'></div>
+        <div class='mercury'></div>
+        <div class='venus'></div>
+        <div class='earth'></div>
+        <div class='mars'></div>
+        <div class='jupiter'></div>
+        <div class='saturn'></div>
+        <div class='uranus'></div>
+        <div class='neptune'></div>
+        <div class='pluto'></div>
+        <div class='asteroids-belt'></div>
+    </div> -->
+
+    <audio id="music" loop>
+        <source src="./assets/music/giangsinhanlanh.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
