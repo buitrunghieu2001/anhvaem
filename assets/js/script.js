@@ -6,7 +6,7 @@ $(document).ready(function() {
     B.snowfall({
         shadow : true, 
         round : true,  
-        minSize: 2, 
+        minSize: 1, 
         maxSize: 8
     });
     

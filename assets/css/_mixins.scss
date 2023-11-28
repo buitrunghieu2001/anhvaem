@@ -1,0 +1,83 @@
+@mixin ipad {
+    @media only screen and (max-width:1024px) {
+        @content
+    }
+}
+
+@mixin ipad-port {
+    @media only screen and (max-width:992px) {
+        @content
+    }
+}
+@mixin mobile {
+    @media only screen and (max-width:769px) {
+        @content
+    }
+}
+// Màn hình ipad loại bé hiển thị theo chiều dọc (Portrait)
+@mixin ipadSmPort {
+    @media only screen and (max-width:600px) {
+        @content
+    }
+}
+@mixin mobile-small {
+    @media only screen and (max-width: 577px) {
+        @content
+    }
+}
+//Màn hình điện thoại Iphone Plus
+@mixin iphonePlus {
+    @media only screen and (max-width: 415px) {
+        @content
+    }
+}
+//Màn hình điện thoại Iphone
+@mixin iphone {
+    @media only screen and (max-width: 376px) {
+        @content
+    }
+}
+//*Màn hình điện thoại loại bé
+@mixin mobileSm {
+    @media only screen and (max-width: 376px) {
+        @content
+    }
+}
+
+
+
+@mixin onlyTablet {
+    @media (min-width: 1025px) and (max-width: 1200px) {
+        @content
+    }
+}
+
+@mixin onlyIpad {
+    @media (min-width: 992px) and (max-width:1024px) {
+        @content
+    }
+}
+
+@mixin onlyIpad-port {
+    @media (min-width: 769px) and (max-width:992px) {
+        @content
+    }
+}
+
+@mixin onlyMobile {
+    @media (min-width: 577px) and (max-width:769px) {
+        @content
+    }
+}
+
+@mixin onlyMobile-small {
+    @media (max-width: 577px) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media only screen and (max-width: 1200px) {
+        @content
+    }
+}

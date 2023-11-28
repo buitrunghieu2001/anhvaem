@@ -17,6 +17,11 @@ body {
   padding: 0 8%;
   position: absolute;
 }
+@media only screen and (max-width: 769px) {
+  .container {
+    padding: 0;
+  }
+}
 .container .users {
   display: flex;
   justify-content: space-around;
@@ -38,6 +43,11 @@ body {
   border-radius: 50%;
   border: 2px solid #ccc;
 }
+@media only screen and (max-width: 769px) {
+  .container .users .user a .avatar {
+    width: 90px;
+  }
+}
 .container .users .user a span {
   color: #fff;
   text-decoration: none;
@@ -46,6 +56,11 @@ body {
 .container .users .heart i {
   font-size: 40px;
   color: #ff3753;
+}
+@media only screen and (max-width: 769px) {
+  .container .users .heart i {
+    font-size: 30px;
+  }
 }
 .container .silent {
   position: absolute;
@@ -64,9 +79,21 @@ body {
   transform: translateY(-50%);
   color: #fff;
 }
+@media only screen and (max-width: 769px) {
+  .container .content {
+    width: 100%;
+    top: 20%;
+    transform: unset;
+  }
+}
 .container .content h1 {
   font-size: 64px;
   font-weight: 600;
+}
+@media only screen and (max-width: 769px) {
+  .container .content h1 {
+    display: none;
+  }
 }
 .container .content h1 span {
   color: #ff3753;
@@ -84,6 +111,12 @@ body {
   font-size: 60px;
   margin-bottom: 14px;
 }
+@media only screen and (max-width: 769px) {
+  .container .content .launch-time div p {
+    font-size: 40px;
+    margin-bottom: 6px;
+  }
+}
 .container button {
   background: transparent;
   border: 1px solid #fff;
@@ -96,6 +129,12 @@ body {
   right: 10px;
   cursor: pointer;
 }
+@media only screen and (max-width: 769px) {
+  .container button {
+    bottom: 6px;
+    right: 6px;
+  }
+}
 .container button i {
   font-size: 14px;
   margin-left: 6px;
@@ -107,6 +146,11 @@ body {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+@media only screen and (max-width: 769px) {
+  .background-img {
+    background-position-x: -84%;
+  }
 }
 
 .overlay {
