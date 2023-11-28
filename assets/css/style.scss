@@ -3,7 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Agbalumo', sans-serif;
+    // font-family: 'Agbalumo', sans-serif;
+    font-family: 'Mountains of Christmas', cursive;
     box-sizing: border-box;
 
 }
@@ -40,6 +41,7 @@ body {
                 display: block;
                 display: flex;
                 flex-direction: column;
+                text-decoration: none;
                 .avatar {
                     width: 120px;
                     border-radius: 50%;
