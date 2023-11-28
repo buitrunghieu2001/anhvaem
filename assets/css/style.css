@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  opacity: 0;
 }
 .container .users .user a {
   display: block;
@@ -53,6 +54,9 @@ body {
   color: #fff;
   text-decoration: none;
   margin-top: 10px;
+}
+.container .users .heart {
+  opacity: 0;
 }
 .container .users .heart i {
   font-size: 40px;
@@ -90,6 +94,7 @@ body {
 .container .content h1 {
   font-size: 64px;
   font-weight: 600;
+  opacity: 0;
 }
 @media only screen and (max-width: 769px) {
   .container .content h1 {
@@ -100,6 +105,7 @@ body {
   color: #ff3753;
 }
 .container .content .launch-time {
+  opacity: 0;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -109,6 +115,7 @@ body {
   margin: 0 12px;
 }
 .container .content .launch-time div p {
+  opacity: 0;
   font-size: 60px;
   margin-bottom: 14px;
 }

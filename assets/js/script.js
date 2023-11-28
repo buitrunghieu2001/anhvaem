@@ -9,6 +9,15 @@ $(document).ready(function() {
         minSize: 1, 
         maxSize: 8
     });
+
+    $(".container .users .user").delay(200).animate({opacity: 1});
+    $(".container .users .heart").delay(1000).animate({opacity: 1});
+    $(".container .content h1").delay(2000).animate({opacity: 1});
+    $(".container .launch-time").delay(2500).animate({opacity: 1});
+    $("#days").delay(3000).animate({opacity: 1});
+    $("#hours").delay(3200).animate({opacity: 1});
+    $("#minutes").delay(3400).animate({opacity: 1});
+    $("#seconds").delay(3600).animate({opacity: 1});
     
     B.delegate('.silent i', 'click', function() {
         var play = $(this).data('status');
