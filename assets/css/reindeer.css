@@ -783,12 +783,7 @@
 
 @media only screen and (max-width: 700px) {
   .countdownSection .decorations .decoration {
-    width: 300px;
-    height: 300px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .countdownSection .decorations .santaWrapper {
-    display: none;
+    width: 200px;
+    height: 200px;
   }
 }/*# sourceMappingURL=reindeer.css.map */

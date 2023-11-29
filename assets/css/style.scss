@@ -78,6 +78,9 @@ body {
         left: 6px;
         top: 6px;
         padding: 6px;
+        @include mobile {
+            padding: 14px;
+        }
         i {
             cursor: pointer;
             color: #fff;

@@ -74,6 +74,11 @@ body {
   top: 6px;
   padding: 6px;
 }
+@media only screen and (max-width: 769px) {
+  .container .silent {
+    padding: 14px;
+  }
+}
 .container .silent i {
   cursor: pointer;
   color: #fff;
