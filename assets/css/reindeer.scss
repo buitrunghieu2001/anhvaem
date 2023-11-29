@@ -124,8 +124,8 @@
     .decoration{
       @include imagen('https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/navidad%2Fdecoration.png?alt=media&token=201ed160-2a86-4b14-869f-85981e9ff5fb');
       position: absolute;
-      width: 500px;
-      height: 500px;
+      width: 300px;
+      height: 300px;
       filter: blur(3px);
       z-index: 1;
       &[data-pos="top left"]{
