@@ -3,8 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    // font-family: 'Agbalumo', sans-serif;
-    font-family: 'Mountains of Christmas', 'Agbalumo', cursive;
+    font-family: 'Mountains of Christmas', 'Agbalumo', sans-serif;
     box-sizing: border-box;
 
 }
@@ -55,6 +54,10 @@ body {
                     color: #fff;
                     text-decoration: none;
                     margin-top: 10px;
+                    background-image: url(../img/pattern-2.jpg);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
                 }
             }
             
@@ -122,6 +125,10 @@ body {
                     opacity: 0;
                     font-size: 60px;
                     margin-bottom: 14px;
+                    background-image: url(../img/pattern-1.png);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
                     @include mobile {
                         font-size: 40px;
                         margin-bottom: 6px;
