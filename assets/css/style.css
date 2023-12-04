@@ -52,6 +52,7 @@ body {
   }
 }
 .container .users .user a span {
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
   margin-top: 10px;
@@ -59,6 +60,11 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 769px) {
+  .container .users .user a span {
+    font-size: 16px;
+  }
 }
 .container .users .heart {
   opacity: 0;
@@ -80,7 +86,7 @@ body {
 }
 @media only screen and (max-width: 769px) {
   .container .silent {
-    padding: 14px;
+    padding: 8px;
   }
 }
 .container .silent i {

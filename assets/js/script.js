@@ -43,7 +43,7 @@ $(document).ready(function() {
     });
 
     // Ngày, tháng - 1, năm, giờ, phút
-    var date = new Date(2023, 7, 31, 10, 0).getTime();
+    var date = new Date(2023, 7, 31, 22, 0).getTime();
     var x = setInterval(function() {
         let now = new Date().getTime();
         let distance = now - date;
