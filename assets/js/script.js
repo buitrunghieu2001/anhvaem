@@ -1,13 +1,16 @@
 $(document).ready(function() {
     var B = $("body");
     var audio = $("#music")[0];
-    audio.volume = 0.3;
+    audio.volume = 0.6;
 
-    B.snowfall({
+    $('.snow').snowfall({
         shadow : true, 
         round : true,  
+        flakeCount: 50,
         minSize: 1, 
-        maxSize: 8
+        maxSize: 8,
+        deviceorientation: true,
+        maxSpeed: 3
     });
 
     $(".container .users .user").delay(200).animate({opacity: 1});
