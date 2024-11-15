@@ -1,8 +1,9 @@
 $(document).ready(function() {
     var B = $("body");
     var audio = $("#music")[0];
-    audio.volume = 0.6;
-
+    audio.volume = 1;
+    audio.play();
+    
     $('.snow').snowfall({
         shadow : true, 
         round : true,  
