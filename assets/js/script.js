@@ -17,6 +17,7 @@ $(document).ready(function() {
     $(".container .users .heart").delay(1000).animate({opacity: 1});
     $(".container .content h1").delay(2000).animate({opacity: 1});
     $(".container .launch-time").delay(2000).animate({opacity: 1});
+    $("#years").delay(2200).animate({opacity: 1});
     $("#days").delay(2400).animate({opacity: 1});
     $("#hours").delay(2600).animate({opacity: 1});
     $("#minutes").delay(2800).animate({opacity: 1});
