@@ -68,7 +68,7 @@ $(document).ready(function() {
     }, 1000);
 
     function render (p) {
-        //$('#years').html(p[0]);
+        $('#years').html(p[0]);
         $('#days').html(p[1]);
         $('#hours').html(p[2]);
         $('#minutes').html(p[3]);
